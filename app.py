@@ -22,6 +22,16 @@ def login():
     return render_template("login.html")
 
 
+@app.route("/about")
+def about():
+    return render_template("about-us.html")
+
+
+@app.route("/terms")
+def terms():
+    return render_template("terms-&-condition.html")
+
+
 # ------------------------------------------------------------------ #
 # Placeholder routes — students will implement these                  #
 # ------------------------------------------------------------------ #

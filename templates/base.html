@@ -31,9 +31,15 @@
 
     <footer class="footer">
         <div class="footer-inner">
-            <span class="brand-icon">◈</span>
-            <span class="footer-name">Spendly</span>
-            <p class="footer-copy">Track every rupee. Own your finances.</p>
+            <div class="footer-brand">
+                <span class="brand-icon">◈</span>
+                <span class="footer-name">Spendly</span>
+                <p class="footer-copy">Track every rupee. Own your finances.</p>
+            </div>
+            <nav class="footer-links">
+                <a href="{{ url_for('about') }}" class="footer-link">About Us</a>
+                <a href="{{ url_for('terms') }}" class="footer-link">Terms &amp; Conditions</a>
+            </nav>
         </div>
     </footer>
 
